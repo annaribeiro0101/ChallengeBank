@@ -1,6 +1,6 @@
 # 🏦 ChallengeBank API
 
-O ChallengeBank é uma **Web API** construída com ASP.NET Core 8 para gerenciar contas bancárias. O projeto segue uma arquitetura em camadas, focando na separação de responsabilidades e na aplicação robusta de regras de negócio, especialmente em operações financeiras críticas como transferências e gestão de status de contas.
+O ChallengeBank é uma **Web API** construída com .NET Core 8 para gerenciar contas bancárias. O projeto segue uma arquitetura em camadas, focando na separação de responsabilidades e na aplicação robusta de regras de negócio, especialmente em operações financeiras críticas como transferências e gestão de status de contas.
 
 ## ✨ Funcionalidades Implementadas
 
@@ -27,7 +27,7 @@ O projeto `ChallengeBank` utiliza uma arquitetura em camadas (similar a *Clean A
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Plataforma:** .NET 8 (ASP.NET Core)
+* **Plataforma:** .NET 8 
 * **Banco de Dados:** SQLite (com Entity Framework Core)
 * **ORM:** Entity Framework Core (EF Core)
 * **Mapeamento:** AutoMapper (usado para converter Entidades para DTOs, quebrando ciclos de referência JSON).
