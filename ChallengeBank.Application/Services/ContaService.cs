@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ChallengeBank.Domain.Entities;
+﻿using ChallengeBank.Domain.Entities;
 using ChallengeBank.Domain.Interfaces;
 
 namespace ChallengeBank.Application.Services
@@ -43,7 +38,7 @@ namespace ChallengeBank.Application.Services
                 ?? throw new KeyNotFoundException("Conta de destino não encontrada.");
 
           
-            contaOrigem.Debitar(valor);
+            contaOrigem.Debitar(valor);     
             contaDestino.Creditar(valor);
 
            
